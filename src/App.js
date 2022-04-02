@@ -24,7 +24,7 @@ function App() {
                         <h1>Count: {count} </h1>
                         <button
                             title="Decrease"
-                            onClick={() => setCount(count - 1)}
+                            onClick={() => setCount(count + 1)}
                         >
                             <AiOutlineMinus size={20} />
                         </button>
